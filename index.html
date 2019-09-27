@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+  <title>TeamBeta</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark static-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/tblogo.png" alt="team-logo" style="width: 12em" id="logo">
+                </a>
+                <button class="navbar-toggler bg-faded" type="button" data-toggle="collapse" data-target="#collapsenavitems"aria-controls="navitems" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse bg-faded" id="collapsenavitems" >
+                    <ul class="navbar-nav ml-auto">
+                        <a class=" nav-item active nav-link" href="#">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                        <a class=" nav-item nav-link" href="#">Team Members</a>
+                        <a class="nav-item nav-link" href="#">Team Project</a>
+                        <a class=" nav-item nav-link" href="#">Contact Me</a>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+       
+    <div class="container">
+        <div class="row align-items-center">  <!--------Content-------->
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-7 text-white mb-5">
+                <h1>Welcome to TeamBeta</h1>
+                
+                <br>
+
+                <h3>La mia prima squadra of HNG Internship 6.0</h3> 
+
+                <br>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, unde architecto nam facilis ipsam blanditiis reiciendis voluptates quos eveniet nihil numquam id sunt? Sapiente voluptas eius deleniti facilis fuga animi ratione dolorum, sunt provident ipsa blanditiis excepturi culpa! Adipisci quo incidunt iste inventore provident cum doloremque consequuntur ea labore optio.</p>
+
+                <br>
+
+                <button class="btn btn-default btn-grad btn-lg sign-up-btn px-4 py-2" data-toggle="modal" data-target="#signupmodal">Join Us</button>
+                
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 d-none d-lg-block d-xl-block">
+                <img src="images/team.svg" alt="team-logo" id="team">
+
+            </div>
+
+            <div class="modal fade"id="signupmodal" tabindex="-1" role="dialog" aria-labelledby="signupmodal" aria-hidden="true">  <!-------Modal for Form-->
+                <div class="modal-dialog modal-lg modal-dialog-centered container justify-content-center"" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header" id="modalhead">
+                            <h1 class="modal-title">Welcome to Team Beta</h1>
+                            <i class="fa fa-times close" data-dismiss="modal" aria-label="Close" aria-hidden="true" style="cursor: pointer;"></i>
+                        </div>
+
+                        <div class="modal-body" id="modalbody">
+                            <div id="subheader">
+                                <h4>Enter your credentials</h4>
+                            </div>
+                        </div>
+                        
+                        <form action="" class="container">
+                            <div class="form-group input-group">
+                                <span class="input-group-prepend">
+                                    <i class="fas fa-user input-group-text"></i>
+                                </span>
+                                <input type="text" class="form-control" placeholder="Full Name" required />
+                            </div>
+
+                            <div class="form-group input-group">
+                                <span class="input-group-prepend">
+                                    <i class="fas fa-envelope input-group-text"></i>
+                                </span>
+                                <input type="email" class="form-control" placeholder="Email address" required />
+                            </div>
+
+                            <div class="form-group input-group">
+                                <span class="input-group-prepend">
+                                    <i class="fas fa-lock input-group-text"></i>
+                                </span>
+                                <input type="password" class="form-control" placeholder="Password" id="password" onkeyup="check();" required />
+                            </div>
+
+                            <div class="form-group input-group">
+                                <span class="input-group-prepend">
+                                    <i class="fas fa-lock input-group-text"></i>
+                                </span>
+                                <input type="password" class="form-control" placeholder="Confirm Password" id="confirmPassword" onkeyup="check();" required />
+                            </div>
+
+                            <h5 id="error" class="text-center"></h5>
+                            <div class="modal-footer justify-content-center ">
+                                <button type="submit" id="submitBtn" class="btn btn-default btn-block btn-grad">Sign Up</button>
+                            </div>
+
+                            <hr>
+
+                            <div class="d-flex">
+                                <h6>Already have an account? <a href="login.html">Sign In</a></h6>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+
+    </footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/login.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <title>Team LogIn</title>
+</head>
+<body id="body">
+    <div class="container-fliud">
+        <nav class="navbar navbar-expand-lg navbar-light bg-faded">  <!----------NavBar---------------->
+            <a href="index.html" class="navbar-brand"><img src="images/tblogo.png" alt="logo for TeamBeta" style="width: 19em"></a> 
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav navbar-right navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Team Members<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div id="root">
+            <section class="d-flex flex-column m-auto p-5 section">
+                <h1>Welcome Back <strong>Beta</strong></h1>
+                <div class="contact">
+                    <img src="https://res.cloudinary.com/bodethomson/image/upload/v1568780205/contact_euphb2.png" id="contact-image"alt="contact"/>
+                </div>
+
+                <form>
+                    <div class="form-group">
+                        <button type="button" class="form-control btn g-btn">
+                            <img src="https://res.cloudinary.com/bodethomson/image/upload/v1568780187/google_p8rauw.png" alt="google"/>
+                            <span> Continue with Google</span>
+                        </button>
+                    </div>
+
+                    <div id="email">
+                        <p>OR SIGN IN WITH EMAIL</p>
+                    </div>
+
+                    <div class="form-group input-group">
+                        <span class="input-group-prepend">
+                            <i class="fas fa-envelope input-group-text"></i>
+                        </span>
+                        <input type="email" class="form-control" placeholder="Email address" required />
+                    </div>
+
+                    <div class="form-group input-group">
+                        <span class="input-group-prepend">
+                            <i class="fas fa-lock input-group-text"></i>
+                        </span>
+                        <input type="password" class="form-control" placeholder="Password" required />
+                    </div>
+
+                    <button type="submit" class="form-control btn login-btn"> Login </button>
+
+                    <div class="form-group form-check">
+                        <div id="checkbox">
+                            <input type="checkbox" class="form-check-input" />
+                            <label class="form-check-label" for="checkbox">Remember Me</label>
+                        </div>
+                        <a href="forgotpassword.html" class="form-control sign-up-btn" data-toggle="modal" data-target="#exampleModalCenter" >Forgot Password?</a>
+                    </div>
+                </form>
+            </section>
+        </div>
+
+    </div><!-- container -->
+<script src="js/jquery.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html
