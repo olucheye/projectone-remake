@@ -1,6 +1,6 @@
 # TEAMBETA
 
-Team Landing Page built using HMTL & CSS
+Team Beta's Landing Page remake
 
 
 ## Hosted
